@@ -44,3 +44,21 @@ const keepProcessing = () : never => {
 // let neverType3 : never = undefined; // Error
 // let neverType4 : never = "Alif"; // Error
 // let neverType5 : never = true; // Error
+
+const person6 = {
+    name : "Alif",
+    balance : 1000,
+    addBalance(amount : number) {
+        this.balance += amount;
+    }
+}
+
+let person6Data = person6?.name ?? "Unknown"; // person6Data = "Alif"
+
+// Optional Chaining
+
+let person6Data2 = person6?.name ?? "Unknown"; // person6Data = "Alif"
+
+// person6 = null; // Error
+
+// person6Data = person6.name ?? "Unknown"; // Error because person6 is null
