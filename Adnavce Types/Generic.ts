@@ -58,7 +58,8 @@ type GenericTuple<T, U> = [T, U];
 
 const genericTuple : GenericTuple<string, number> = ["Alif", 21];
 
-// Generic Functions
+
+
 
 
 
