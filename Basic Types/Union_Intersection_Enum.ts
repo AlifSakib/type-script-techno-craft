@@ -41,7 +41,7 @@ let student : StudentOrEmployee = {
 
 }
 
-let employee : StudentOrEmployee = {
+let employeee : StudentOrEmployee = {
     name : "Alif",
     id : 123,
     company : "ISC"
