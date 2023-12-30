@@ -10,7 +10,7 @@ interface Lengthwise {
 
 }
 
-function genericFunction<T extends Lengthwise>(argument: T): T {
+function genericFunctions<T extends Lengthwise>(argument: T): T {
     console.log(argument.length);
     return argument;
 }
